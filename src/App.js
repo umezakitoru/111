@@ -9,9 +9,10 @@ const user = {
   image: "https://source.unsplash.com/NE0XGVKTmcA",
   email: "aaa.aaa.com",
   phone: "000-0000-1111",
-  compane: {
+  company: {
     name: "ヴァリアント"
-  }
+  },
+  web: "http://sample.com"
 };
 
 export default function App() {
@@ -21,7 +22,7 @@ export default function App() {
       <SecondaryButton>検索</SecondaryButton>
       <br />
       <SearchInput />
-      <UserCard />
+      <UserCard user={user} />
     </div>
   );
 }
