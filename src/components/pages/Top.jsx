@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const Top = () => {
   return (
-    <SContaner>
-      <h2>TOPページです</h2>
-    </SContaner>
+    <SContainer>
+      <h2>TOPページ</h2>
+    </SContainer>
   );
 };
 
-const SContaner = styled.div`
+const SContainer = styled.div`
   text-align: center;
 `;

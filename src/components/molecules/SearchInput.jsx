@@ -7,7 +7,7 @@ export const SearchInput = () => {
   return (
     <div>
       <SContainer>
-        <Input placeholder="あああ" />
+        <Input placeholder="検索条件を入力" />
         <SButtonWrapper>
           <PrimaryButton>検索</PrimaryButton>
         </SButtonWrapper>
