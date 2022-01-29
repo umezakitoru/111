@@ -2,10 +2,11 @@ import styled from "styled-components";
 import { SecondaryButton } from "../atoms/button/SecondaryButton";
 import { useHistory } from "react-router-dom";
 import { useContext } from "react";
+import { UserContext } from "../../provider/UserProvider";
 
 export const Top = () => {
   const history = useHistory();
-  const [setUserInfo] = useContext();
+  const { setUserInfo } = useContext(UserContext);
 
   const onClickAdmin = () => {
     setUserInfo({ isAdmin: true });
